@@ -6,4 +6,4 @@ cmake -B build -DENABLE_CLANG_FORMAT=ON -DENABLE_CLANG_TIDY=ON;
 cmake --build build;
 cmake --build build --target install;
 
-Для сборки со статической библиотекой выполнить те же комады, но используя файл CMakeLists.txt из папки CMake_for_static_lib
+Для сборки со статической библиотекой выполнить те же комады, но используя файл CMakeLists.txt из папки CMake_for_static_lib.
